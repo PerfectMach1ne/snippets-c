@@ -13,6 +13,7 @@ int main() {
     char *ptr4 = &a[6];
     char *ptr5 = a + 6;
 
+    // printf("\n==== %s", *ptr2); // segfaults
     printf("\n%x %i\n%c %c %c %c\n",ptr1,ptr1,*ptr2,*ptr3,*ptr4,*ptr5); // 2023: This is dereference, right?
     // Yes: https://stackoverflow.com/questions/14224831/meaning-of-referencing-and-dereferencing-in-c
     // Dereferencing a pointer - retrieving a value from the memory address that is pointed by the pointer.

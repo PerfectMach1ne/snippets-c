@@ -69,7 +69,12 @@ void verticalHistogram(int * array) {
         putchar('\n');
     }
 
-    /*
+    putchar('\n');
+    for (int k = 0; k < 10; k++)
+        putchar(k + '0');
+    putchar('\n');
+    
+    // /*
     for (int i = 0; i < verticalHeight + 1; i++) {
         if (i != verticalHeight) {
             for (int j = 0; j < 10; j++) {
@@ -78,11 +83,10 @@ void verticalHistogram(int * array) {
                 else
                     putchar(219);
             }
-        } else
-            for (int k = 0; k < 10; k++)
-                putchar(k + '0');
+        } 
         putchar('\n');
-    } */ // THIS ONE WORKS BUT UPSIDE DOWN
+    }
+    //*/ // THIS ONE WORKS BUT UPSIDE DOWN
 }
 
 int findMaxArrayValue(int * array) {
