@@ -1,0 +1,22 @@
+So if I just start typing shit just like this, the stringy thingy will be split according to the buffer, and because it's not flushed or anything (right?) it just gets split like this:
+So if I j
+ust start
+ typing s
+hit just
+like this
+, the str
+ingy thin
+gy will b
+e split a
+ccording
+to the bu
+ffer, and
+ because
+it's not
+flushed o
+r anythin
+g (right?
+) it just
+ gets spl
+it like t
+his:
